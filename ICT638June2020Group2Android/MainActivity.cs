@@ -18,9 +18,9 @@ namespace ICT638June2020Group2Android
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
-            //can no find sth
+           
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
+            //TESTSKY
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
