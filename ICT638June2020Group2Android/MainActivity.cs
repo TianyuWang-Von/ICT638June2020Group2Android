@@ -21,7 +21,7 @@ namespace ICT638June2020Group2Android
         {
            
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-            //TESTSKY
+            //TESTSKY1
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
