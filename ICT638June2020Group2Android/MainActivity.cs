@@ -11,7 +11,6 @@ namespace ICT638June2020Group2Android
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            // TianyuWangTest
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
