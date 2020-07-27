@@ -17,6 +17,7 @@ namespace ICT638June2020Group2Android
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             //Sky nmsl
+            //123
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
