@@ -1658,13 +1658,16 @@ namespace ICT638June2020Group2Android
 			public const int textAppearanceSubtitle1 = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int textAppearanceSubtitle2 = 2130903487;
+			public const int titleMarginEnd = 2130903487;
+			
+			// aapt resource value: 0x7F0301C2
+			public const int titleMargins = 2130903490;
 			
 			// aapt resource value: 0x7F0301C0
 			public const int textColorAlertDialogListItem = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int textColorSearchUrl = 2130903489;
+			public const int titleMarginTop = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
 			public const int textEndPadding = 2130903490;
@@ -1718,7 +1721,7 @@ namespace ICT638June2020Group2Android
 			public const int titleMarginBottom = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int titleMarginEnd = 2130903507;
+			public const int windowActionBar = 2130903507;
 			
 			// aapt resource value: 0x7F0301D6
 			public const int titleMargins = 2130903510;
@@ -1727,7 +1730,10 @@ namespace ICT638June2020Group2Android
 			public const int titleMarginStart = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int titleMarginTop = 2130903509;
+			public const int windowActionModeOverlay = 2130903509;
+			
+			// aapt resource value: 0x7F0301D6
+			public const int windowFixedHeightMajor = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
 			public const int titleTextAppearance = 2130903511;
@@ -3531,6 +3537,9 @@ namespace ICT638June2020Group2Android
 			// aapt resource value: 0x7F08002A
 			public const int buttonPanel = 2131230762;
 			
+			// aapt resource value: 0x7F08002A
+			public const int center_vertical = 2131230762;
+			
 			// aapt resource value: 0x7F08002B
 			public const int cancel_action = 2131230763;
 			
@@ -3558,6 +3567,9 @@ namespace ICT638June2020Group2Android
 			// aapt resource value: 0x7F080033
 			public const int collapseActionView = 2131230771;
 			
+			// aapt resource value: 0x7F080001
+			public const int CTRL = 2131230721;
+			
 			// aapt resource value: 0x7F080034
 			public const int container = 2131230772;
 			
@@ -3583,28 +3595,28 @@ namespace ICT638June2020Group2Android
 			public const int dark = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int decor_content_parent = 2131230779;
+			public const int design_menu_item_text = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int default_activity_button = 2131230780;
+			public const int design_navigation_view = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_bottom_sheet = 2131230781;
+			public const int disableHome = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int design_menu_item_action_area = 2131230782;
+			public const int edit_query = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int design_menu_item_action_area_stub = 2131230783;
+			public const int end = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int design_menu_item_text = 2131230784;
+			public const int enterAlways = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int design_navigation_view = 2131230785;
+			public const int enterAlwaysCollapsed = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int disableHome = 2131230786;
+			public const int exitUntilCollapsed = 2131230786;
 			
 			// aapt resource value: 0x7F080043
 			public const int edit_query = 2131230787;
@@ -3651,6 +3663,9 @@ namespace ICT638June2020Group2Android
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
+			// aapt resource value: 0x7F080050
+			public const int icon_group = 2131230800;
+			
 			// aapt resource value: 0x7F080051
 			public const int ghost_view = 2131230801;
 			
@@ -3669,6 +3684,9 @@ namespace ICT638June2020Group2Android
 			// aapt resource value: 0x7F080056
 			public const int icon = 2131230806;
 			
+			// aapt resource value: 0x7F080056
+			public const int labeled = 2131230806;
+			
 			// aapt resource value: 0x7F080057
 			public const int icon_group = 2131230807;
 			
@@ -3681,6 +3699,9 @@ namespace ICT638June2020Group2Android
 			// aapt resource value: 0x7F08005A
 			public const int image = 2131230810;
 			
+			// aapt resource value: 0x7F08005A
+			public const int line3 = 2131230810;
+			
 			// aapt resource value: 0x7F08005B
 			public const int info = 2131230811;
 			
@@ -3692,6 +3713,9 @@ namespace ICT638June2020Group2Android
 			
 			// aapt resource value: 0x7F08005E
 			public const int labeled = 2131230814;
+			
+			// aapt resource value: 0x7F080003
+			public const int META = 2131230723;
 			
 			// aapt resource value: 0x7F08005F
 			public const int largeLabel = 2131230815;
@@ -3779,6 +3803,9 @@ namespace ICT638June2020Group2Android
 			
 			// aapt resource value: 0x7F08007A
 			public const int progress_circular = 2131230842;
+			
+			// aapt resource value: 0x7F08007E
+			public const int scrollable = 2131230846;
 			
 			// aapt resource value: 0x7F08007B
 			public const int progress_horizontal = 2131230843;
@@ -4088,7 +4115,7 @@ namespace ICT638June2020Group2Android
 			public const int mtrl_tab_indicator_anim_duration_ms = 2131296269;
 			
 			// aapt resource value: 0x7F09000E
-			public const int show_password_duration = 2131296270;
+			public const int status_bar_notification_info_maxnum = 2131296270;
 			
 			// aapt resource value: 0x7F09000F
 			public const int status_bar_notification_info_maxnum = 2131296271;
@@ -4530,7 +4557,7 @@ namespace ICT638June2020Group2Android
 			public const int common_google_play_services_unsupported_text = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int common_google_play_services_update_button = 2131558455;
+			public const int status_bar_notification_info_overflow = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
 			public const int common_google_play_services_update_text = 2131558456;
