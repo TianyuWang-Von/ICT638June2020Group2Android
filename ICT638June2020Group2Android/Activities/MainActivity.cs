@@ -3,6 +3,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
+using ICT638June2020Group2Android.Activities;
 
 namespace ICT638June2020Group2Android
 {
@@ -15,7 +16,16 @@ namespace ICT638June2020Group2Android
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
             SetContentView(Resource.Layout.activity_main);
+
+            Button btn_Start = FindViewById<Button>(Resource.Id.btn_start);
+            btn_Start.Click += Btn_Start_Click;
         }
+
+        private void Btn_Start_Click(object sender, System.EventArgs e)
+        {
+            StartActivity(typeof(LoginActivity));
+        }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
            
